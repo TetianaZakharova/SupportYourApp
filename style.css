@@ -177,7 +177,7 @@ only screen and (min-resolution: 1.5dppx),
 only screen and (min-resolution: 144dpi) { 
 
   .LoginForm{
-    width: 350px;
+    width: 700px;
     padding: 0 80px;
   }
   
