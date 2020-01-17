@@ -13,7 +13,7 @@ for(var i = 1; i <= 5; i++){
 }
 
 window.onload = () => {
-  window.setTimeout(bgImg, 1500);
+  window.setTimeout(bgImg, 500);
   setInterval(bgImg, 28800000);
 }
 
@@ -29,7 +29,7 @@ let bgImg =  () => {
     back.style.backgroundImage = (backs[randomImg]);
     back.style.backgroundSize = "cover";
     back.style.backgroundRepeat = "no-repeat";
-    back.animate(backgroundFade, {duration: 1500})
+    back.animate(backgroundFade, {duration: 500})
 }
 
 var form = document.querySelector('.LoginForm')
