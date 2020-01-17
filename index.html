@@ -16,7 +16,7 @@
 <body class="container">
   <div class="back"></div>
   <div class="wrapper">
-    <form class="LoginForm">
+    <form class="LoginForm" method="POST" action="#">
 	  <div class="loginFormLogo">
 	    <div class="colorBlocks">
 		  <div class="colorBlock orange" ></div>
@@ -28,8 +28,8 @@
 	  <div class="loginFormFields">
 	    <h1 class="loginForm__name">QCRM</h1>
 		<h2 class="loginForm__title">by SupportYourApp</h2>
-		<div><input type="text" id="email" class="field" placeholder="Login"></div>
-		<div><input type="password" id="password" class="field" placeholder="Password"></div>
+		<div><input type="text" id="email" class="field" placeholder="Login" name="login"></div>
+		<div><input type="password" id="password" class="field" placeholder="Password" name="password"></div>
 		<div class="checkbox">
   		  <input class="checkbox__input" type="checkbox" id="checkbox" name="checkbox">
 		  <label class="checkbox__label" for="checkbox">Remember me on this computer</label>
